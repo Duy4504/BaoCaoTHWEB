@@ -43,6 +43,7 @@ $posts = $stmt->fetchAll();
         <?php endif; ?>
 
         <h2 class="page-title">Tin xe đã được duyệt</h2>
+         <h2 class="page-title">Tin xe đã được duyệt</h2>
 
         <?php if (empty($posts)): ?>
             <div style="text-align: center; padding: 40px; background: white; border-radius: 16px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
